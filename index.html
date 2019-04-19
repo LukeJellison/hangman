@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman.js</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Special+Elite" rel="stylesheet">
+    <audio style="display:none" controls loop>
+      <source src="css/MenuTheme.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Hangman.js</h1>
+    <h2>The Dark Souls of Hangman Games</h2>
+     <div class="rekindle">Use the characters below to rekindle the flame</div>
+ </div>
+ <div class="wrapper">
+     <div id="buttons">
+     </div>  
+     <p id="catagoryName"></p>
+     <div id="hold">
+     </div>
+     <p id="mylives"></p>
+     <p id="clue">Hint: </p> 
+     <div id="canvasContainer">
+      <canvas id="stickman"> This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    </div>
+      <div class="container">
+       <button id="hint">Hint</button>
+       <button id="reset">Play again</button>
+     </div>
+ </div>
+<script src="js/hangman.js"></script>
+</body>
+</html>
